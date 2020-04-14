@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ConfArch.Web.Controllers
 {
-    [Authorize]
+    
     public class ProposalController: Controller
     {
         private readonly IConferenceRepository conferenceRepo;
